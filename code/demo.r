@@ -22,7 +22,10 @@ print(df2)
 
 data = rbind(df, df2)
 
-# KM2
+# write out
+write.csv(data, "report/testdata_modified.csv", row.names = FALSE)
+
+# KM2 using the data
 surv_obj <- Surv(time = data$time, event = data$status==1)
 fit <- survfit(surv_obj ~ group, data = data)
 png("report/km_curve2.png", width = 800, height = 600)

@@ -9,8 +9,9 @@ Competing risks are events that prevent the occurrence of the primary event of i
 
 * `data/testdataset.csv`: Example survival pattern
 * `code/demo.R`: Code comparing Cause‑Specific Cox vs. Fine–Gray models
+* `report/testdata_modified.csv`: Example data modified (Group B added)
 * `report/KM_curve.png`: Kaplan–Meier curve for the test dataset
-* `report/KM_curve2.png`: Kaplan–Meier curve for the augmented dataset
+* `report/KM_curve2.png`: Kaplan–Meier curve for the augmented dataset. Please note that Group A and B are completely overlapped. 
 
 ---
 
